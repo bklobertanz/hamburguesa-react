@@ -1,0 +1,14 @@
+.Orders{
+    width:auto;
+    margin-top: 70px;
+}
+
+@media(min-width:600px){
+    
+    .Orders{       
+       width: 70%;
+       margin: auto;  
+       margin-top: 70px;
+       
+    }
+}

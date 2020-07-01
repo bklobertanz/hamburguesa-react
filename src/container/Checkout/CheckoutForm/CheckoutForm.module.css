@@ -1,0 +1,13 @@
+ .CheckoutForm{
+    border: 1px solid gray;
+    padding: 10px 30px; 
+    justify-content: center;
+    display: inline-block;
+    margin-top: 40px;
+    width:60%; 
+}
+@media(min-width: 600px){
+    .CheckoutForm{
+        width: 600px;
+    }
+}

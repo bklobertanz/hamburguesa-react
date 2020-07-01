@@ -1,0 +1,16 @@
+.Burger{
+
+    width: 275px;
+    margin: auto; 
+    height:210px;
+    overflow: auto;
+}   
+/* @media(min-width: 600px){
+
+    .Burger{
+
+        width: 450px;
+        height: 350px;
+    }
+
+} */

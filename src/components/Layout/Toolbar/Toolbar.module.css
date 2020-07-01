@@ -1,0 +1,37 @@
+.Toolbar{
+    
+    background-color: saddlebrown;
+    display: flex;
+    height:56px;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding: 0 10px; 
+    position: fixed;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    z-index:90;
+}
+.Toolbar nav{
+    display:none
+}
+
+@media (min-width:500px){
+
+    .Toolbar nav{
+        display:flex;
+    }   
+    
+}
+
+.Toolbar button{
+
+    background-color: saddlebrown;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+    font: inherit;
+    border: none;
+}
